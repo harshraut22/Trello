@@ -1,0 +1,15 @@
+.headr-cntr{
+  display: flex;
+  width: 100vw;
+  justify-content: end;
+
+}
+
+.header-bell, .header-info, .header-plus, .header-profile{
+  width: 2vw;
+}
+
+.header-btn{
+  border: 0;
+  background-color: white;
+}
