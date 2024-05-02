@@ -1,5 +1,5 @@
-import "../Styles/TaskCardStyles.css";
 import React from "react";
+import Draggable from "react-draggable";
 import Card from "./Card";
 
 const TaskCard = ({ task }) => {
@@ -10,7 +10,11 @@ const TaskCard = ({ task }) => {
       </div>
       <div className="task-card-body">
         {task.cards.map((card) => (
-          <Card key={card.id} card={card} />
+          <Draggable key={card.id}>
+            <div>
+              <Card card={card} />
+            </div>
+          </Draggable>
         ))}
       </div>
     </div>
