@@ -2,7 +2,6 @@
   {
     "id": "PLANNED",
     "title": "Planned Tasks",
-    "label": "20/70",
     "cards": [
       {
         "id": "Milk",
@@ -33,7 +32,6 @@
   {
     "id": "WIP",
     "title": "Work In Progress",
-    "label": "10/20",
     "cards": [
       {
         "id": "Wip1",
@@ -46,7 +44,6 @@
   {
     "id": "COMPLETED",
     "title": "Completed",
-    "label": "2/5",
     "cards": [
       {
         "id": "Completed1",

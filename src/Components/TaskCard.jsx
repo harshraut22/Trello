@@ -7,7 +7,6 @@ const TaskCard = ({ task }) => {
     <div className="task-card">
       <div className="task-card-header">
         <h2 className="task-title">{task.title}</h2>
-        <p className="task-label">{task.label}</p>
       </div>
       <div className="task-card-body">
         {task.cards.map((card) => (
