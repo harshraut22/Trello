@@ -1,8 +1,12 @@
-# React + Vite
+Description: 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome!! This is a part of a hiring challange by IIT Bombay for the role of frontend developer. This project is build using react + vite + babel. For drag and drop a additional package is used called react-draggable.
 
-Currently, two official plugins are available:
+Data is sourced from a json file base.json in Data folder.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Instructions:
+The hosted website can be viewed here: [text](https://trello-three-green.vercel.app/)
+To run the app locally:
+i) Open terminal
+ii) Run npm i
+iii) To test the webpage in browser run command npm run dev
